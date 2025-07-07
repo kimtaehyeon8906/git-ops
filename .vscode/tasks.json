@@ -1,0 +1,6 @@
+"externalCommandRunner.commands": [
+  {
+    "name": "Run current Python file in CMD",
+    "command": "start cmd.exe /k python ${file}"
+  }
+]
