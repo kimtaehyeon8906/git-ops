@@ -1,0 +1,54 @@
+/* style.css — Global base after split:
+  - Keep only truly global rules
+  - Page-specific styles moved to: index.css, poster.css, account.css
+*/
+
+/* Footer */
+footer.footer {
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 48px 0;
+}
+.footer-sections {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 48px;
+  gap: 200px;
+}
+.footer-logo {
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.footer-title {
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.footer-links li {
+  margin-bottom: 8px;
+}
+.footer-links a {
+  color: #d1d5db;
+  font-size: 14px;
+}
+.social-links {
+  display: flex;
+  gap: 16px;
+}
+.footer-bottom {
+  border-top: 1px solid #374151;
+  text-align: center;
+  padding-top: 24px;
+}
+.copyright { font-size: 14px; color: #9ca3af; }
+
+/* Global focus reset */
+button:focus,
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
